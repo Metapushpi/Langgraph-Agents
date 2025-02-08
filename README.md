@@ -4,13 +4,21 @@ An intelligent routing system that uses Azure OpenAI to process and route user q
 
 ## Project Structure 
 project_root/
+
 ├── .env # Environment variables and configuration
+
 ├── requirements.txt # Python dependencies
+
 ├── agent.py # Main AI router implementation
+
 ├── api_functions.py # Function implementations for different intents
+
 ├── memory_manager.py # Memory management system
+
 ├── main.py # Application entry point
+
 ├── conversation_history.json # Persistent storage for conversations
+
 └── README.md # Project documentation
 
 ## Features
