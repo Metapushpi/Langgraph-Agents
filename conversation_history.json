@@ -1,0 +1,122 @@
+{
+  "conversations": [
+    {
+      "query": "What is the stock price of Tesla?",
+      "response": "{\n  \"type\": \"financial\",\n  \"data\": {\n    \"symbol\": \"TSLA\",\n    \"price\": 750.25,\n    \"change\": \"+2.5%\"\n  },\n  \"query\": \"What is the stock price of Tesla?\"\n}",
+      "intent": {
+        "intent": "finance",
+        "entities": [
+          "Tesla"
+        ],
+        "function": "get_stock_price"
+      },
+      "timestamp": "2025-02-07 00:03:03.653695"
+    },
+    {
+      "query": "Translate 'Hello' into French.",
+      "response": "{\n  \"type\": \"translation\",\n  \"data\": {\n    \"original\": \"Hello\",\n    \"translated\": \"Bonjour\",\n    \"language\": \"French\"\n  },\n  \"query\": \"Translate 'Hello' into French.\"\n}",
+      "intent": {
+        "intent": "translation",
+        "entities": [
+          "Hello",
+          "French"
+        ],
+        "function": "translate"
+      },
+      "timestamp": "2025-02-07 00:04:14.217514"
+    },
+    {
+      "query": "What is the stock price of apple?",
+      "response": "{\n  \"type\": \"financial\",\n  \"data\": {\n    \"symbol\": \"TSLA\",\n    \"price\": 750.25,\n    \"change\": \"+2.5%\"\n  },\n  \"query\": \"What is the stock price of apple?\"\n}",
+      "intent": {
+        "intent": "finance",
+        "entities": [
+          "apple"
+        ],
+        "function": "stock_price"
+      },
+      "timestamp": "2025-02-07 00:16:53.279319"
+    },
+    {
+      "query": "Tell me the latest news.",
+      "response": "{\n  \"type\": \"news\",\n  \"data\": {\n    \"headlines\": [\n      \"Latest developments in AI\",\n      \"Tech industry updates\"\n    ]\n  },\n  \"query\": \"Tell me the latest news.\"\n}",
+      "intent": {
+        "intent": "news",
+        "entities": [],
+        "function": "get_latest_news"
+      },
+      "timestamp": "2025-02-07 00:17:11.490501"
+    },
+    {
+      "query": "What is the stock price of Tata?",
+      "response": "{\n  \"type\": \"financial\",\n  \"data\": {\n    \"symbol\": \"TSLA\",\n    \"price\": 750.25,\n    \"change\": \"+2.5%\"\n  },\n  \"query\": \"What is the stock price of Tata?\"\n}",
+      "intent": {
+        "intent": "finance",
+        "entities": [
+          "Tata"
+        ],
+        "function": "stock_price"
+      },
+      "timestamp": "2025-02-07 00:18:05.882075"
+    },
+    {
+      "query": "What is the stock price of Tesla?",
+      "response": "{\n  \"type\": \"financial\",\n  \"data\": {\n    \"symbol\": \"TSLA\",\n    \"price\": 750.25,\n    \"change\": \"+2.5%\"\n  },\n  \"query\": \"What is the stock price of Tesla?\"\n}",
+      "intent": {
+        "intent": "finance",
+        "entities": [
+          "Tesla"
+        ],
+        "function": "stock_price"
+      },
+      "timestamp": "2025-02-07 00:18:52.367372"
+    },
+    {
+      "query": "What about Apple?",
+      "response": "{\n  \"type\": \"news\",\n  \"data\": {\n    \"headlines\": [\n      \"Latest developments in AI\",\n      \"Tech industry updates\"\n    ]\n  },\n  \"query\": \"What about Apple?\"\n}",
+      "intent": {
+        "intent": "news",
+        "entities": [
+          "Apple"
+        ],
+        "function": "information"
+      },
+      "timestamp": "2025-02-07 00:18:59.822006"
+    },
+    {
+      "query": "Tell me the latest news.",
+      "response": "{\n  \"type\": \"news\",\n  \"data\": {\n    \"headlines\": [\n      \"Latest developments in AI\",\n      \"Tech industry updates\"\n    ]\n  },\n  \"query\": \"Tell me the latest news.\"\n}",
+      "intent": {
+        "intent": "news",
+        "entities": [],
+        "function": "getLatestNews"
+      },
+      "timestamp": "2025-02-07 00:19:14.445477"
+    },
+    {
+      "query": "And Bitcoin\u2019s performance?",
+      "response": "{\n  \"type\": \"financial\",\n  \"data\": {\n    \"symbol\": \"TSLA\",\n    \"price\": 750.25,\n    \"change\": \"+2.5%\"\n  },\n  \"query\": \"And Bitcoin\\u2019s performance?\"\n}",
+      "intent": {
+        "intent": "finance",
+        "entities": [
+          "Bitcoin"
+        ],
+        "function": "performance"
+      },
+      "timestamp": "2025-02-07 00:19:23.798331"
+    },
+    {
+      "query": "Translate 'Hello' into French.",
+      "response": "{\n  \"type\": \"translation\",\n  \"data\": {\n    \"original\": \"Hello\",\n    \"translated\": \"Bonjour\",\n    \"language\": \"French\"\n  },\n  \"query\": \"Translate 'Hello' into French.\"\n}",
+      "intent": {
+        "intent": "translation",
+        "entities": [
+          "Hello",
+          "French"
+        ],
+        "function": "translate"
+      },
+      "timestamp": "2025-02-07 00:19:32.832651"
+    }
+  ]
+}
